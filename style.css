@@ -1,0 +1,113 @@
+* {
+ background-color: #1408bd00;
+ font-family: 'Inter', sans-serif; 
+ font-weight: 400;
+ font-size: 32px;
+ line-height: 150%;
+}
+
+.logoAlura {
+    margin-left: 10px;
+    padding-top: 10px;
+    width: 2%;
+}
+
+main {
+    display: flex;
+    margin-bottom: 50px;
+    margin-left: 80px;
+    }
+
+.text-area {
+    border: none;
+    color: #0A3871;
+    margin-top: 90px;
+    text-transform: lowercase;
+}
+
+::placeholder { color: #0A3871; }
+.text-area:focus {
+    outline: none;
+}
+
+.mensagem {
+    background: white;
+    background-image: url(/challenger/img/menino\ lupa.png);
+background-repeat: no-repeat;
+border: none;
+border-radius: 24px;
+color: #0A3871
+margin-left: 98px;
+margin-top: 20px;
+padding-left: 20px;
+position: fixed;
+}
+
+.mensagem:focus {
+    outline: none;
+}
+
+.botoes {
+    display: flex;
+    margin-top: 18px;
+}
+
+.btn-desencriptador {
+    background: #cbd3dd;
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    color: #0A3871;
+    cursor: pointer;
+    height: 67px;
+    margin-left: 30px;
+    width: 328px;
+}
+
+.btn-encriptador {
+    background-color: #0A3871;
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    color: white;
+    cursor: pointer;
+    height: 67px;
+    width: 328px;
+}
+
+.btn-copiar {
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    color: #0A3871;
+    cursor: pointer;
+    height: 67px;
+    margin-left: 1px;
+    margin-top: 400px;
+    position: absolute;
+    width: 336px;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 600px;
+    margin-right: 150px;
+    
+}
+
+.apresentacao__ {
+    background-color: rgb(42, 177, 177);
+    width: 200px;
+    text-align:center;
+    border-radius: 16px;
+    font-size: 24px;
+    text-decoration: none;
+    margin-bottom: 1000px;
+    cursor: pointer;
+
+    
+}
+
+.body {
+    height: 100vh;
+    box-sizing: border-box;
+}
